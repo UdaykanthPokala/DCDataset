@@ -15,4 +15,4 @@ if __name__ =="__main__":
     t2.start()
     t1.join()
     t2.join()
-    print("Total Time taken for seqential", time.time() - start_time)
+    print("Total Time taken for parallel", time.time() - start_time)
